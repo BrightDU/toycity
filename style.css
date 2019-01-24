@@ -1,0 +1,52 @@
+
+
+body {
+    background-color:rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header {
+     height: 60px;
+     background-color: yellow; 
+}
+
+#logo {
+    float: left;
+    height: 60px;
+    width: 140px;
+}
+
+
+img {
+    width: 300px;
+    height: 160px;
+}
+
+footer {
+    background: #333;
+    margin-top: 270px;
+}
+
+footer p {
+    color: #ccc;
+    font-size: 70%;
+    font-family: tahoma, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+}
+
+
+ul li {
+    color: #771f1f;
+    display: inline-block;
+
+}
+
+ul {
+    float: left;
+    margin-right: 20px;
+    word-spacing: 20px;
+}
