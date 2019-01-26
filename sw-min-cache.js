@@ -1,4 +1,4 @@
-self.importScripts('./OfflineAssets/sw-toolbox/sw-toolbox.js');
+self.importScripts('https://brightdu.github.io/toycity/OfflineAssets/sw-toolbox/sw-toolbox.js');
 
 //setting our cache name and structure
 const tyCaches = {
