@@ -1,4 +1,4 @@
-self.importScripts('https://brightdu.github.io/toycity/OfflineAssets/sw-toolbox/sw-toolbox.js');
+//self.importScripts('https://brightdu.github.io/toycity/OfflineAssets/sw-toolbox/sw-toolbox.js');
 
 //setting our cache name and structure
 const tyCaches = {
@@ -34,7 +34,7 @@ self.addEventListener('activate', function(event){
     )
 })
 
-/*
+
 //this allows users to add items to the cache as they navigate through application.
 function fetchAndUpdate(request){
     return fetch(request)
@@ -66,9 +66,9 @@ self.addEventListener('fetch', function(event){
             return fetchAndUpdate(event.request);//fetches and saves the resources triggered by the users
         }));
 });
-*/
 
 
+/*
 //using sw Tool box to handle all GET request to the resources in the ./OfflineAssets directory
 toolbox.router.get('/OfflineAssets/*', toolbox.cacheFirst, {
     cache: {
@@ -90,4 +90,4 @@ toolbox.router.get('/*', function(request, values, options) {
         maxEntries: 15
     }
 })
-
+*/
