@@ -61,7 +61,7 @@ self.addEventListener('fetch', function(event){
             if(res)
                 return res;
             if(!navigator.onLine)//if offline
-                return caches.match(new Request('/OfflineAssets/offline.html'));//returns our offline page
+                return caches.match(new Request('./OfflineAssets/offline.html'));//returns our offline page
             
             return fetchAndUpdate(event.request);//fetches and saves the resources triggered by the users
         }));
