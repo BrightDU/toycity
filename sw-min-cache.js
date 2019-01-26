@@ -14,7 +14,7 @@ self.addEventListener('install', function(event){
         caches.open(tyCaches.static)
         .then(function(cache){
             return cache.add([
-                '/OfflineAssets/offline.html',
+                'https://brightdu.github.io/toycity/OfflineAssets/offline.html',
             ]);
         }));
 })
